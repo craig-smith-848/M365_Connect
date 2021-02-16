@@ -12,7 +12,7 @@ You can also pass the credential as a parameter:
 ./ConnectO365Services.ps1 -UserName Admin@Contoso.com -Password "XXX"
 ```
 
-**_**_Note:_**_** *You can also give script’s absolute path if it’s not in the current directory.*
+**_Note:_** *You can also give script’s absolute path if it’s not in the current directory.*
 
 ### Connect to all Office 365 Services (With MFA)
 
@@ -50,7 +50,7 @@ To connect with the Microsoft Azure Active Directory Module for Windows PowerShe
 ./ConnectO365Services.ps1 -Services MSOnline
 ```
 
-**_**_Note:_**_** *Above cmdlet will install MSOnline module if it is not installed already.*
+**_Note:_** *Above cmdlet will install MSOnline module if it is not installed already.*
 
 ### Connect to O365 PowerShell using MFA
 
@@ -60,7 +60,7 @@ To connect with the Microsoft Azure Active Directory Module for Windows PowerShe
 ./ConnectO365Services.ps1 -Services MSOnline -MFA
 ```
 
-**_**_Note:_**_** Above cmdlet will install MSOnline module if it is not installed already. 
+**_Note:_** Above cmdlet will install MSOnline module if it is not installed already. 
 
 ### Connect to Azure Active Directory PowerShell
 
@@ -195,6 +195,7 @@ If you want to connect multiple Office 365 services with MFA, mention the requir
 ```
 
 ### Disconnect Office 365 Services
+
 Make sure to disconnect the remote PowerShell session when you’re finished. Else you would end up using all remote PowerShell sessions available to you and you will get the following error. 
 
 ```powershell
