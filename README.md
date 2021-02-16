@@ -62,7 +62,7 @@ To connect with the Microsoft Azure Active Directory Module for Windows PowerShe
 
 **_**_Note:_**_** Above cmdlet will install MSOnline module if it is not installed already. 
 
-### Connect to Azure Active Directory PowerShell:
+### Connect to Azure Active Directory PowerShell
 
 To connect with the Microsoft Azure Active Directory PowerShell for Graph module, run the below cmdlet. 
 
@@ -113,7 +113,7 @@ To connect SharePoint PnP using PowerShell, run a below cmdlet. It will ask for 
 
 SharePointHostName used to connect SharePoint Online Administration Center. For admin@Contoso.onmicrosoft.com, organization name is Contoso. 
 
-### Connect to SharePoint PnP PowerShell with MFA: 
+### Connect to SharePoint PnP PowerShell with MFA
 
 To connect SharePoint PnP PowerShell with MFA enabled account, run a below cmdlet.
 
@@ -123,7 +123,7 @@ To connect SharePoint PnP PowerShell with MFA enabled account, run a below cmdle
 
 SharePointHostName used to connect SharePoint Online Administration Center. For admin@Contoso.onmicrosoft.com, organization name is Contoso. 
 
-### Connect to Skype for Business Online PowerShell: 
+### Connect to Skype for Business Online PowerShell
 
 To connect Skype for Business Online PowerShell, you can use the below cmdlet.
 
@@ -134,7 +134,7 @@ To connect Skype for Business Online PowerShell, you can use the below cmdlet.
 Above cmdlet will install Teams PowerShell which has Skype for Business Online Connector integration. So, you can use New-CSOnlineSession cmdlet with the Teams PowerShell itself.
 
 **_Note:_** Since Skype for Business Online Connector module is under deprecation, we have used Teams PowerShell to connect Skype for Business Online PowerShell. If you want to install Skype for Business Online Connector module, you can use below link to download the Module.
-https://download.microsoft.com/download/2/0/5/2050B39B-4DA5-48E0-B768-583533B42C3B/SkypeOnlinePowerShell.Exe
+[Skype for Business Online Connector Module](https://download.microsoft.com/download/2/0/5/2050B39B-4DA5-48E0-B768-583533B42C3B/SkypeOnlinePowerShell.Exe)
 
 ### Connect to Skype for Business Online PowerShell with MFA
 
@@ -154,7 +154,7 @@ To connect Teams PowerShell, it requires Microsoft Teams Module. When you run th
 ./ConnectO365Services.ps1 -Services Teams
 ```
 
-### Connect to Teams PowerShell with MFA: 
+### Connect to Teams PowerShell with MFA
 
 To connect Teams PowerShell with MFA, run the below cmdlet. 
 
@@ -162,7 +162,7 @@ To connect Teams PowerShell with MFA, run the below cmdlet.
 ./ConnectO365Services.ps1 -Services Teams -MFA
 ```
 
-### Connect to Office 365 Security & Compliance Center PowerShell: 
+### Connect to Office 365 Security & Compliance Center PowerShell
 
 To manage Office 365 Security and Compliance Center from the PowerShell, run the below cmdlet 
 
