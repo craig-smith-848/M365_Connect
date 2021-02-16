@@ -193,3 +193,16 @@ If you want to connect multiple Office 365 services with MFA, mention the requir
 ```powershell
 ./ConnectO365Services.ps1 -Services AzureAD,ExchangeOnline,Skype -MFA
 ```
+
+### Disconnect Office 365 Services
+Make sure to disconnect the remote PowerShell session when you’re finished. Else you would end up using all remote PowerShell sessions available to you and you will get the following error. 
+
+```powershell
+`New-PSSession :` "outlook.office365. com Processing data from remote server outlook.office365. com failed with the following error message: Fail to create a runspace because you have exceeded the maximum number of connections allowed: 10 for the policy party: MaxConcurrency. Please close existing runspace and try again."
+```
+
+To disconnect all the Office 365 PowerShell session in the current window, run the below command. 
+
+```powershell
+./ConnectO365Services.ps1 –Disconnect
+``` 
